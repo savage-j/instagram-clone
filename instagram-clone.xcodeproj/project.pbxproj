@@ -29,6 +29,7 @@
 		6CDACF6A1CFFE9E800492771 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF691CFFE9E800492771 /* Media.m */; };
 		6CDACF6D1CFFEA5E00492771 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF6C1CFFEA5E00492771 /* Comment.m */; };
 		6CDACF701CFFEAC700492771 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF6F1CFFEAC700492771 /* DataSource.m */; };
+		6CDBDD9A1D0078970039BB56 /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBDD991D0078970039BB56 /* MediaTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		6CDACF6C1CFFEA5E00492771 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		6CDACF6E1CFFEAC700492771 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		6CDACF6F1CFFEAC700492771 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		6CDBDD981D0078970039BB56 /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
+		6CDBDD991D0078970039BB56 /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				6CDACF6C1CFFEA5E00492771 /* Comment.m */,
 				6CDACF6E1CFFEAC700492771 /* DataSource.h */,
 				6CDACF6F1CFFEAC700492771 /* DataSource.m */,
+				6CDBDD981D0078970039BB56 /* MediaTableViewCell.h */,
+				6CDBDD991D0078970039BB56 /* MediaTableViewCell.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 			files = (
 				6CDACF671CFFE98400492771 /* User.m in Sources */,
 				6CDACF6D1CFFEA5E00492771 /* Comment.m in Sources */,
+				6CDBDD9A1D0078970039BB56 /* MediaTableViewCell.m in Sources */,
 				6CDACF6A1CFFE9E800492771 /* Media.m in Sources */,
 				6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */,
 				6CDACF701CFFEAC700492771 /* DataSource.m in Sources */,
@@ -570,6 +576,7 @@
 				6CDACF461CFFDE7C00492771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CDACF471CFFDE7C00492771 /* Build configuration list for PBXNativeTarget "instagram-cloneTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +585,7 @@
 				6CDACF491CFFDE7C00492771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CDACF4A1CFFDE7C00492771 /* Build configuration list for PBXNativeTarget "instagram-cloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +594,7 @@
 				6CDACF4C1CFFDE7C00492771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

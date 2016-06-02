@@ -25,6 +25,10 @@
 		6CDACF601CFFDFBC00492771 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF561CFFDFBC00492771 /* 9.jpg */; };
 		6CDACF611CFFDFBC00492771 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF571CFFDFBC00492771 /* 10.jpg */; };
 		6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */; };
+		6CDACF671CFFE98400492771 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF661CFFE98400492771 /* User.m */; };
+		6CDACF6A1CFFE9E800492771 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF691CFFE9E800492771 /* Media.m */; };
+		6CDACF6D1CFFEA5E00492771 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF6C1CFFEA5E00492771 /* Comment.m */; };
+		6CDACF701CFFEAC700492771 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF6F1CFFEAC700492771 /* DataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,14 @@
 		6CDACF571CFFDFBC00492771 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		6CDACF621CFFDFFF00492771 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
 		6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		6CDACF651CFFE98400492771 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6CDACF661CFFE98400492771 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6CDACF681CFFE9E800492771 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		6CDACF691CFFE9E800492771 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		6CDACF6B1CFFEA5E00492771 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		6CDACF6C1CFFEA5E00492771 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		6CDACF6E1CFFEAC700492771 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		6CDACF6F1CFFEAC700492771 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +143,14 @@
 				6CDACF1A1CFFDE7C00492771 /* Supporting Files */,
 				6CDACF621CFFDFFF00492771 /* ImagesTableViewController.h */,
 				6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */,
+				6CDACF651CFFE98400492771 /* User.h */,
+				6CDACF661CFFE98400492771 /* User.m */,
+				6CDACF681CFFE9E800492771 /* Media.h */,
+				6CDACF691CFFE9E800492771 /* Media.m */,
+				6CDACF6B1CFFEA5E00492771 /* Comment.h */,
+				6CDACF6C1CFFEA5E00492771 /* Comment.m */,
+				6CDACF6E1CFFEAC700492771 /* DataSource.h */,
+				6CDACF6F1CFFEAC700492771 /* DataSource.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -318,7 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDACF671CFFE98400492771 /* User.m in Sources */,
+				6CDACF6D1CFFEA5E00492771 /* Comment.m in Sources */,
+				6CDACF6A1CFFE9E800492771 /* Media.m in Sources */,
 				6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */,
+				6CDACF701CFFEAC700492771 /* DataSource.m in Sources */,
 				6CDACF1C1CFFDE7C00492771 /* main.m in Sources */,
 				6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */,
 			);

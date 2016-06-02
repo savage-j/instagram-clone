@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		6CDACF1C1CFFDE7C00492771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1B1CFFDE7C00492771 /* main.m */; };
 		6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1E1CFFDE7C00492771 /* AppDelegate.m */; };
-		6CDACF221CFFDE7C00492771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF211CFFDE7C00492771 /* ViewController.m */; };
 		6CDACF251CFFDE7C00492771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF231CFFDE7C00492771 /* Main.storyboard */; };
 		6CDACF271CFFDE7C00492771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF261CFFDE7C00492771 /* Assets.xcassets */; };
 		6CDACF2A1CFFDE7C00492771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF281CFFDE7C00492771 /* LaunchScreen.storyboard */; };
 		6CDACF351CFFDE7C00492771 /* instagram_cloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF341CFFDE7C00492771 /* instagram_cloneTests.m */; };
 		6CDACF401CFFDE7C00492771 /* instagram_cloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF3F1CFFDE7C00492771 /* instagram_cloneUITests.m */; };
+		6CDACF581CFFDFBC00492771 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF4E1CFFDFBC00492771 /* 1.jpg */; };
+		6CDACF591CFFDFBC00492771 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF4F1CFFDFBC00492771 /* 2.jpg */; };
+		6CDACF5A1CFFDFBC00492771 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF501CFFDFBC00492771 /* 3.jpg */; };
+		6CDACF5B1CFFDFBC00492771 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF511CFFDFBC00492771 /* 4.jpg */; };
+		6CDACF5C1CFFDFBC00492771 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF521CFFDFBC00492771 /* 5.jpg */; };
+		6CDACF5D1CFFDFBC00492771 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF531CFFDFBC00492771 /* 6.jpg */; };
+		6CDACF5E1CFFDFBC00492771 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF541CFFDFBC00492771 /* 7.jpg */; };
+		6CDACF5F1CFFDFBC00492771 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF551CFFDFBC00492771 /* 8.jpg */; };
+		6CDACF601CFFDFBC00492771 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF561CFFDFBC00492771 /* 9.jpg */; };
+		6CDACF611CFFDFBC00492771 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF571CFFDFBC00492771 /* 10.jpg */; };
+		6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		6CDACF1B1CFFDE7C00492771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDACF1D1CFFDE7C00492771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CDACF1E1CFFDE7C00492771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CDACF201CFFDE7C00492771 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CDACF211CFFDE7C00492771 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CDACF241CFFDE7C00492771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CDACF261CFFDE7C00492771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CDACF291CFFDE7C00492771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,18 @@
 		6CDACF3B1CFFDE7C00492771 /* instagram-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDACF3F1CFFDE7C00492771 /* instagram_cloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagram_cloneUITests.m; sourceTree = "<group>"; };
 		6CDACF411CFFDE7C00492771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDACF4E1CFFDFBC00492771 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6CDACF4F1CFFDFBC00492771 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		6CDACF501CFFDFBC00492771 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6CDACF511CFFDFBC00492771 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6CDACF521CFFDFBC00492771 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6CDACF531CFFDFBC00492771 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		6CDACF541CFFDFBC00492771 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		6CDACF551CFFDFBC00492771 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		6CDACF561CFFDFBC00492771 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		6CDACF571CFFDFBC00492771 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		6CDACF621CFFDFFF00492771 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +121,16 @@
 		6CDACF191CFFDE7C00492771 /* instagram-clone */ = {
 			isa = PBXGroup;
 			children = (
+				6CDACF4D1CFFDF6200492771 /* Images */,
 				6CDACF1D1CFFDE7C00492771 /* AppDelegate.h */,
 				6CDACF1E1CFFDE7C00492771 /* AppDelegate.m */,
-				6CDACF201CFFDE7C00492771 /* ViewController.h */,
-				6CDACF211CFFDE7C00492771 /* ViewController.m */,
 				6CDACF231CFFDE7C00492771 /* Main.storyboard */,
 				6CDACF261CFFDE7C00492771 /* Assets.xcassets */,
 				6CDACF281CFFDE7C00492771 /* LaunchScreen.storyboard */,
 				6CDACF2B1CFFDE7C00492771 /* Info.plist */,
 				6CDACF1A1CFFDE7C00492771 /* Supporting Files */,
+				6CDACF621CFFDFFF00492771 /* ImagesTableViewController.h */,
+				6CDACF631CFFDFFF00492771 /* ImagesTableViewController.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -138,6 +159,23 @@
 				6CDACF411CFFDE7C00492771 /* Info.plist */,
 			);
 			path = "instagram-cloneUITests";
+			sourceTree = "<group>";
+		};
+		6CDACF4D1CFFDF6200492771 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CDACF4E1CFFDFBC00492771 /* 1.jpg */,
+				6CDACF4F1CFFDFBC00492771 /* 2.jpg */,
+				6CDACF501CFFDFBC00492771 /* 3.jpg */,
+				6CDACF511CFFDFBC00492771 /* 4.jpg */,
+				6CDACF521CFFDFBC00492771 /* 5.jpg */,
+				6CDACF531CFFDFBC00492771 /* 6.jpg */,
+				6CDACF541CFFDFBC00492771 /* 7.jpg */,
+				6CDACF551CFFDFBC00492771 /* 8.jpg */,
+				6CDACF561CFFDFBC00492771 /* 9.jpg */,
+				6CDACF571CFFDFBC00492771 /* 10.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +281,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDACF611CFFDFBC00492771 /* 10.jpg in Resources */,
+				6CDACF5F1CFFDFBC00492771 /* 8.jpg in Resources */,
+				6CDACF5D1CFFDFBC00492771 /* 6.jpg in Resources */,
 				6CDACF2A1CFFDE7C00492771 /* LaunchScreen.storyboard in Resources */,
+				6CDACF5C1CFFDFBC00492771 /* 5.jpg in Resources */,
+				6CDACF5B1CFFDFBC00492771 /* 4.jpg in Resources */,
+				6CDACF581CFFDFBC00492771 /* 1.jpg in Resources */,
+				6CDACF591CFFDFBC00492771 /* 2.jpg in Resources */,
+				6CDACF5A1CFFDFBC00492771 /* 3.jpg in Resources */,
+				6CDACF5E1CFFDFBC00492771 /* 7.jpg in Resources */,
+				6CDACF601CFFDFBC00492771 /* 9.jpg in Resources */,
 				6CDACF271CFFDE7C00492771 /* Assets.xcassets in Resources */,
 				6CDACF251CFFDE7C00492771 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDACF221CFFDE7C00492771 /* ViewController.m in Sources */,
 				6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */,
 				6CDACF1C1CFFDE7C00492771 /* main.m in Sources */,
+				6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

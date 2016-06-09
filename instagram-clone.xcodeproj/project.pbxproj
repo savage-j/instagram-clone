@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0A74931D09B2F700A25A23 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A74921D09B2F700A25A23 /* LoginViewController.m */; };
 		6CDACF1C1CFFDE7C00492771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1B1CFFDE7C00492771 /* main.m */; };
 		6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1E1CFFDE7C00492771 /* AppDelegate.m */; };
 		6CDACF251CFFDE7C00492771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF231CFFDE7C00492771 /* Main.storyboard */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C0A74911D09B2F700A25A23 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6C0A74921D09B2F700A25A23 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6CDACF171CFFDE7C00492771 /* instagram-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDACF1B1CFFDE7C00492771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDACF1D1CFFDE7C00492771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				6CDACF6F1CFFEAC700492771 /* DataSource.m */,
 				6CDBDD981D0078970039BB56 /* MediaTableViewCell.h */,
 				6CDBDD991D0078970039BB56 /* MediaTableViewCell.m */,
+				6C0A74911D09B2F700A25A23 /* LoginViewController.h */,
+				6C0A74921D09B2F700A25A23 /* LoginViewController.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -348,6 +353,7 @@
 				6CDBDD9A1D0078970039BB56 /* MediaTableViewCell.m in Sources */,
 				6CDACF6A1CFFE9E800492771 /* Media.m in Sources */,
 				6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */,
+				6C0A74931D09B2F700A25A23 /* LoginViewController.m in Sources */,
 				6CDACF701CFFEAC700492771 /* DataSource.m in Sources */,
 				6CDACF1C1CFFDE7C00492771 /* main.m in Sources */,
 				6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */,

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-instagram-clone.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4D4956316EFBFB2D1DE7198484712003</key>
+		<key>1BEAA7EB84BFCC0794F02EFEF1290E86</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8D25D03C15859AF4140BA03E242B8A8D</key>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E84171554F280F664388423B5FBA14C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

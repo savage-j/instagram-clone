@@ -16,6 +16,7 @@
 
 @interface ImagesTableViewController () <MediaTableViewCellDelegate>
 
+@property(nonatomic, readonly, getter=isDecelerating) BOOL decelerating;
 
 
 @end
@@ -30,24 +31,16 @@
     self.refreshControl = [[UIRefreshControl alloc] init];
     [self.refreshControl addTarget:self action:@selector(refreshControlDidFire:) forControlEvents:UIControlEventValueChanged];
     
-    
     [self.tableView registerClass:[MediaTableViewCell class] forCellReuseIdentifier:@"mediaCell"];
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
+- (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];
     if (self) {
-        //self.images = [NSMutableArray array];
-
-        // Custom initialization
-        
     }
     return self;
 }
@@ -60,8 +53,8 @@
         return 150;
     }
 }
-- (void) dealloc
-{
+
+- (void) dealloc {
     [[DataSource sharedInstance] removeObserver:self forKeyPath:@"mediaItems"];
 }
 
@@ -168,7 +161,22 @@
     }
 }
 
+- (void) cellDidPressLikeButton:(MediaTableViewCell *)cell {
+    Media *item = cell.mediaItem;
+    
+    [[DataSource sharedInstance] toggleLikeOnMediaItem:item withCompletionHandler:^{
+        if (cell.mediaItem == item) {
+            cell.mediaItem = item;
+        }
+    }];
+    
+    cell.mediaItem = item;
+}
+
 #pragma mark - UIScrollViewDelegate
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+    _decelerating = true;
+}
 
 // #4
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {

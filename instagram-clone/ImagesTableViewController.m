@@ -16,8 +16,6 @@
 
 @interface ImagesTableViewController () <MediaTableViewCellDelegate>
 
-@property(nonatomic, readonly, getter=isDecelerating) BOOL decelerating;
-
 
 @end
 
@@ -174,9 +172,6 @@
 }
 
 #pragma mark - UIScrollViewDelegate
-- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
-    _decelerating = true;
-}
 
 // #4
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {

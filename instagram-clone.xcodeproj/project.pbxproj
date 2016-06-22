@@ -11,6 +11,7 @@
 		6C16D94D1D1050AB007F8F1A /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C16D94C1D1050AB007F8F1A /* MediaFullScreenViewController.m */; };
 		6C1BBEC11D173D3A00975654 /* CircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BBEC01D173D3A00975654 /* CircleSpinnerView.m */; };
 		6C1BBEC41D173F1700975654 /* LikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BBEC31D173F1700975654 /* LikeButton.m */; };
+		6C7722DE1D1831DA008EA31A /* ComposeCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7722DD1D1831DA008EA31A /* ComposeCommentView.m */; };
 		6CDACF1C1CFFDE7C00492771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1B1CFFDE7C00492771 /* main.m */; };
 		6CDACF1F1CFFDE7C00492771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDACF1E1CFFDE7C00492771 /* AppDelegate.m */; };
 		6CDACF251CFFDE7C00492771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDACF231CFFDE7C00492771 /* Main.storyboard */; };
@@ -65,6 +66,8 @@
 		6C1BBEC01D173D3A00975654 /* CircleSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSpinnerView.m; sourceTree = "<group>"; };
 		6C1BBEC21D173F1700975654 /* LikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeButton.h; sourceTree = "<group>"; };
 		6C1BBEC31D173F1700975654 /* LikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeButton.m; sourceTree = "<group>"; };
+		6C7722DC1D1831DA008EA31A /* ComposeCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeCommentView.h; sourceTree = "<group>"; };
+		6C7722DD1D1831DA008EA31A /* ComposeCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeCommentView.m; sourceTree = "<group>"; };
 		6CDACF171CFFDE7C00492771 /* instagram-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDACF1B1CFFDE7C00492771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDACF1D1CFFDE7C00492771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				6C1BBEC01D173D3A00975654 /* CircleSpinnerView.m */,
 				6C1BBEC21D173F1700975654 /* LikeButton.h */,
 				6C1BBEC31D173F1700975654 /* LikeButton.m */,
+				6C7722DC1D1831DA008EA31A /* ComposeCommentView.h */,
+				6C7722DD1D1831DA008EA31A /* ComposeCommentView.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 				6C0A74931D09B2F700A25A23 /* LoginViewController.m in Sources */,
 				6C1BBEC41D173F1700975654 /* LikeButton.m in Sources */,
 				6CDACF701CFFEAC700492771 /* DataSource.m in Sources */,
+				6C7722DE1D1831DA008EA31A /* ComposeCommentView.m in Sources */,
 				6CDACF1C1CFFDE7C00492771 /* main.m in Sources */,
 				6CDACF641CFFDFFF00492771 /* ImagesTableViewController.m in Sources */,
 			);

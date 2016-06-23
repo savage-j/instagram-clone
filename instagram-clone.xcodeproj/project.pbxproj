@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6C0A74931D09B2F700A25A23 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A74921D09B2F700A25A23 /* LoginViewController.m */; };
+		6C0B816F1D1C2BA100F6A928 /* CropBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B816E1D1C2BA100F6A928 /* CropBox.m */; };
+		6C0B81721D1C2E5A00F6A928 /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B81711D1C2E5A00F6A928 /* CropImageViewController.m */; };
+		6C0B81751D1C304E00F6A928 /* ImageLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B81741D1C304E00F6A928 /* ImageLibraryViewController.m */; };
 		6C0B8B1F1D1AD4820077E9EB /* CameraToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B8B1E1D1AD4820077E9EB /* CameraToolBar.m */; };
 		6C0B8B221D1AD7950077E9EB /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B8B211D1AD7950077E9EB /* CameraViewController.m */; };
 		6C0B8B251D1ADA8B0077E9EB /* UIImage+ImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B8B241D1ADA8B0077E9EB /* UIImage+ImageUtilities.m */; };
@@ -63,6 +66,12 @@
 		301F2FBB7A6ED00DA9344287 /* libPods-instagram-clone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instagram-clone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0A74911D09B2F700A25A23 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		6C0A74921D09B2F700A25A23 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6C0B816D1D1C2BA100F6A928 /* CropBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropBox.h; sourceTree = "<group>"; };
+		6C0B816E1D1C2BA100F6A928 /* CropBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropBox.m; sourceTree = "<group>"; };
+		6C0B81701D1C2E5A00F6A928 /* CropImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropImageViewController.h; sourceTree = "<group>"; };
+		6C0B81711D1C2E5A00F6A928 /* CropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropImageViewController.m; sourceTree = "<group>"; };
+		6C0B81731D1C304E00F6A928 /* ImageLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLibraryViewController.h; sourceTree = "<group>"; };
+		6C0B81741D1C304E00F6A928 /* ImageLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLibraryViewController.m; sourceTree = "<group>"; };
 		6C0B8B1D1D1AD4820077E9EB /* CameraToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToolBar.h; sourceTree = "<group>"; };
 		6C0B8B1E1D1AD4820077E9EB /* CameraToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToolBar.m; sourceTree = "<group>"; };
 		6C0B8B201D1AD7950077E9EB /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
@@ -212,6 +221,12 @@
 				6C0B8B211D1AD7950077E9EB /* CameraViewController.m */,
 				6C0B8B231D1ADA8B0077E9EB /* UIImage+ImageUtilities.h */,
 				6C0B8B241D1ADA8B0077E9EB /* UIImage+ImageUtilities.m */,
+				6C0B816D1D1C2BA100F6A928 /* CropBox.h */,
+				6C0B816E1D1C2BA100F6A928 /* CropBox.m */,
+				6C0B81701D1C2E5A00F6A928 /* CropImageViewController.h */,
+				6C0B81711D1C2E5A00F6A928 /* CropImageViewController.m */,
+				6C0B81731D1C304E00F6A928 /* ImageLibraryViewController.h */,
+				6C0B81741D1C304E00F6A928 /* ImageLibraryViewController.m */,
 			);
 			path = "instagram-clone";
 			sourceTree = "<group>";
@@ -462,7 +477,10 @@
 				6C16D94D1D1050AB007F8F1A /* MediaFullScreenViewController.m in Sources */,
 				6C1BBEC11D173D3A00975654 /* CircleSpinnerView.m in Sources */,
 				6CDACF671CFFE98400492771 /* User.m in Sources */,
+				6C0B81751D1C304E00F6A928 /* ImageLibraryViewController.m in Sources */,
+				6C0B816F1D1C2BA100F6A928 /* CropBox.m in Sources */,
 				6CDACF6D1CFFEA5E00492771 /* Comment.m in Sources */,
+				6C0B81721D1C2E5A00F6A928 /* CropImageViewController.m in Sources */,
 				6C0B8B1F1D1AD4820077E9EB /* CameraToolBar.m in Sources */,
 				6CDBDD9A1D0078970039BB56 /* MediaTableViewCell.m in Sources */,
 				6CDACF6A1CFFE9E800492771 /* Media.m in Sources */,
